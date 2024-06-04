@@ -1,0 +1,20 @@
+.bulb-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .text {
+    /* Add desired styling for the text */
+  }
+  
+  .bulb {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* Initially hide the bulb icon */
+  }
+  
+  .bulb-container:hover .bulb {
+    display: block; /* Show the bulb icon when the container is hovered over */
+  }

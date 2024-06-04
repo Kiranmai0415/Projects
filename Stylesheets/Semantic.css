@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* 
+body {
+    height: 70%;
+    min-height: 70vh;
+
+} */
+
+.semantic-container {
+    border: 1px solid black;
+    /* background-color: rgb(240, 245, 243); */
+}
+
+header,
+nav, footer {
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 40%;
+    padding-top: 4%;
+}
+
+header { background-color: pink; }
+
+nav { background-color: rgb(181, 229, 229); }
+footer { background-color: rgb(227, 153, 227) ;}
+
+aside {
+    width: 30%;
+    background-color: rgb(206, 171, 137);
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+main {
+    background-color: rgb(137, 205, 222);
+    width: 70%;
+    /* padding-left: 30%; */
+    padding-top: 10%;
+    text-align: center;
+}
+
+.flexing {
+    display: flex;
+    height: 75% !important;
+
+}
+
+.main-content {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    height: 60%;
+    margin: 10px;
+    padding: 15px;
+    background-color: cadetblue;
+    border-radius: 5px;
+
+}
+
+.article-content {
+    background-color: rgb(123, 224, 143);
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 75%;
+    margin: 10px;
+    padding: 15px; 
+}
+figure, p {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+figure{
+    background-color: rgb(184, 148, 218);
+    margin-bottom: 10px;
+}
+p {
+    background-color: rgb(208, 125, 125);
+}
+
+section {
+    background-color: rgb(213, 183, 161);
+    border: 1px solid green;
+    height: 50px;
+    border-radius: 3px;
+    right: 30px;
+    margin: 10px;
+    padding: 15px;
+}
